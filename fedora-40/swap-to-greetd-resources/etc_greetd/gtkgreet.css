@@ -1,0 +1,15 @@
+window {
+  background-image: url("file:///usr/share/backgrounds/gtkgreet-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+box#body {
+    background-color: #353535;
+    box-shadow: 1px 0px 0px 1px rgba(27, 27, 27, 0.9);
+    padding: 50px;
+    color: white;
+}
+
+box#clock {
+    color: white;
+}
