@@ -75,6 +75,13 @@ This can be alleviated by running the following commands:
 sudo plymouth-set-default-theme details
 dracut --force --verbose --regenerate-all
 ```
+
+## Atomic Desktop Variants
+
+Swap out the dracut command for
+```
+rpm-ostree initramfs --enable --reboot
+```
 ## Using recovery key
 
 Don't have any FIDO2 keys plugged into the machine and then enter a bit of
